@@ -4,16 +4,14 @@
   <div>
 
     <h1 class=Alvin >Alvin Lejon </h1>
-    <h2>Här har jag samlat min uppgifter jag gjort i samband med webbutveckling i årskurs 2 på Maja Beskowgymnasiet!</h2>
-    <h3 id = "Number"h3>Inspirerade citat för min webbutvecklingsresa:</h3>
+    
+    
     <!--Under denna kommer vi lägga till fler element-->
 	<p id="inspo">
-		"The only way to learn a new programming language is by writing programs in it." - <strong>Dennis Ritchie</strong>, creator of the C programming language.
+		"Välkommen till min hemsida" - <strong> </strong>
 	</p>
 	
-	<p style="background-color:pink">
-		"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span>Patrick McKenzie, software engineer and entrepreneur</span>.
-	</p>
+	
 	
 	
 	
@@ -57,11 +55,8 @@ h1{
 h2{
     color: rgb(255, 165, 0);
 }
-h3{
-    color: #3cb371;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
+
 
 .Alvin {
 	color: red
@@ -79,7 +74,7 @@ span{
 
 
   /* Vi skiljer elementen med ett kommatecken(,) för att ge möjligheten till att ge flera element samma styling*/
-  h1, h2, h3, p {
+  h1, h2, p {
   display: inline;
   /*Ger utrymme mellan element*/
   margin: 10px;
