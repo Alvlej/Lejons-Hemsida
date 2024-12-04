@@ -5,7 +5,9 @@
     let varor=[{name: "Nocco", tobuy:true}]
     let vara = ""
     function add(){
-        varor = [...varor, {name:vara,tobuy:true}]
+        if (vara !=""){
+            varor = [...varor, {name:vara,tobuy:true}]
+        }
     }
 
     function flytta(vara){
@@ -40,7 +42,7 @@
                         {vara.name}
                         <button on:click={()=> flytta(vara)}> <strong>☐</strong></button>
                         <button on:click={()=> remove(vara)}> <strong>❌</strong></button>
-                        
+                        <hr style="border-color: white; "transition:fade>
                     </li>
                     {/if}
                 {/each }
@@ -59,6 +61,7 @@
                     <li>
                         {vara.name}
                         <button on:click={()=> flyttat(vara)}><strong>✅</strong></button>
+                        <hr style="border-color: white;"transition:fade>
                     </li>
                     {/if}
                 {/each }
