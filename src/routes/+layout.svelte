@@ -28,6 +28,7 @@
 	<a href="{base}/" >Home </a>
 	<a href="{base}/register">Register</a>
 	<a href="{base}/login">Inloggning</a>
+	<a href="{base}/shoppinglist">Shoppinglist</a>
 </nav>
 
 <style>
