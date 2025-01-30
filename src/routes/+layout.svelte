@@ -31,6 +31,9 @@
 	<a href="{base}/shoppinglist">Shoppinglist</a>
 	<a href="{base}/memory">Memory</a>
 	<a href="{base}/chat">chat	</a>
+	<a href="{base}/search">Search	</a>
+	<a href="{base}/uklogin">User login	</a>
+	<a href="{base}/h">User2 login	</a>
 </nav>
 
 <style>
