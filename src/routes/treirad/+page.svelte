@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from "svelte";
+
 
 	let x = 1;
 	let y = 1;
@@ -6,7 +8,12 @@
 
 	let choser = "https://cdn.pixabay.com/photo/2022/03/23/02/48/cross-7086307_1280.png";
 	
-	let boxes = document.querySelectorAll(".box");
+	let boxes 
+
+
+	onMount(()=>{
+		boxes =  document.querySelectorAll(".box") ;
+	})
 	let turn = "x";
 	let isgameover = false;
 
