@@ -8,7 +8,7 @@
 
 	let choser = "https://cdn.pixabay.com/photo/2022/03/23/02/48/cross-7086307_1280.png";
 	
-	let boxes 
+	let boxes = []
 
 
 	onMount(()=>{
