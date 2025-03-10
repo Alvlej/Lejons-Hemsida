@@ -33,6 +33,11 @@
 	<a href="{base}/chat">chat	</a>
 	<a href="{base}/search">Search	</a>
 	<a href="{base}/uklogin">User login	</a>
+	<a href="{base}/treirad">Tre i rad</a>
+	<a href="{base}/webbshop"> webbshop</a>
+	<a href="{base}/prov"> prov</a>
+
+
 </nav>
 
 <style>
