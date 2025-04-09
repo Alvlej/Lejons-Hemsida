@@ -14,8 +14,5 @@
   
   input{
     color:black;
-
-    
-
    }
   </style>
