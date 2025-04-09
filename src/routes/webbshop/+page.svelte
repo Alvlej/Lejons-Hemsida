@@ -370,6 +370,7 @@
     <div class="varukorg"> 
         <p class="korg">🛒 </p>
         <p class ="total"> Total: {total_price} SEK</p>
+        <button class = "köp" on:click={total_price}>KÖP</button>
     </div>
 
         
@@ -459,6 +460,15 @@
             font-size: x-large;
             text-align: center;
             
+        }
+
+        .köp{
+            background-color: red;
+            font-weight: 800px;
+            size: 1000px;
+            margin-left: 400px;
+            margin-top: 10px;
+            font-size: x-large;
         }
 
      
